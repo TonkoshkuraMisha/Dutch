@@ -1,9 +1,10 @@
-import matplotlib.pyplot as plt
+a, b = map(int, input().split())
+n = 0
+while a != b:
+    n += 1
+    if a > b:
+        a = a - b
+    else:
+        b = b - a
 
-x_list = [1, 5, -3]
-
-y_list = [-5, 6, 1]
-
-plt.plot(x_list, x_list)
-
-plt.show()
+print(a + b, n)
