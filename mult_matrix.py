@@ -6,6 +6,7 @@ result = [[0] * m for _ in range(m)]
 
 matrix1 = [list(map(int, input().split())) for _ in range(m)]
 matrix2 = [list(map(int, input().split())) for _ in range(m)]
+
 print_matrix(result, m)
 print()
 print_matrix(matrix1, m)
